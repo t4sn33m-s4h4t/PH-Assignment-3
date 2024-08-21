@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- FontAwesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Manrope Font CDN  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- daisyUI CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                "primaty-color": '#ABEF5F',
+              }
+            }
+          }
+        }
+      </script>
+      <style>
+        .manrope-font {
+  font-family: "Manrope", sans-serif;
+}
+      </style>
+</head>
+<body class="manrope-font">
+
+        <header class="lg:px-16 md:px-10 px-2 bg-gray-100">
+            <navbar class="bg-transparent navbar justify-between bg-base-100">
+                <div class="navbar-start">
+                  
+                  <div class="flex items-center justify-center">
+                    <button class="bg-lime-300 rounded-full text-black w-7 h-7 cursor-auto">
+                        <i class="  fa-solid fa-arrow-right -rotate-45"></i>
+                    </button>
+                </div>
+                  <a class="font-extrabold cursor-auto text-3xl ml-1">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="text-gray-500 menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class=" hidden lg:flex gap-5 navbar-end">
+                    <button class="bg-white rounded-full text-black w-10 h-10 ">
+                        <i class=" text-gray-500 fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    <button class="bg-white rounded-full text-black w-10 h-10 ">
+                        
+                        <i class="text-gray-500 fa-solid fa-cart-shopping"></i>
+                    </button>
+                  <a class=" font-extrabold rounded-3xl btn bg-lime-400">Book Consult
+                    <button class="bg-black rounded-full text-black w-7 h-7 ">
+                        <i class=" text-white fa-solid fa-arrow-right -rotate-45"></i>
+                    </button>
+                  </a>
+                </div>
+                <div class="dropdown rounded-full bg-white h-10 w-10 flex align-middle justify-center">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+         
+                  </div>
+            </navbar>
+        </header>
+
+</body>
+</html>
